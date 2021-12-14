@@ -5,13 +5,17 @@ import "./styles.scss"
 const Landing = () => {
     return (
         <div className="landing">
+              <div className="landing-content">
+                <h1>Find your own unique style</h1>
+                <button className="landing-btn">Shop now</button>
+            </div>
             <div className="landing-img">
-                <img src ={silverGirl}  alt ="girl in silver dress"/>
+                <div className="landing-img_wrapper">
+                          <img src ={silverGirl}  alt ="girl in silver dress"/>
+                 </div>
+             
             </div>
-            <div className="landing-content">
-                <h3>Find your own unique style</h3>
-                <button>Shop now</button>
-            </div>
+          
         </div>
     )
 }

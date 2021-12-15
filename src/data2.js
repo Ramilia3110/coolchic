@@ -1,8 +1,8 @@
 
- const women =  [
+ const men =  [
     {
       id: 1,
-      modelImg:require("./assets/images/1.png").default,
+      modelImg:require("./assets/images/m1.png").default,
       name: "Black suit/dress",
       likeNumber: "1,305",
       feedbackNumber: "125",
@@ -10,7 +10,7 @@
     },
     {
       id: 2,
-      modelImg:require("./assets/images/2.png").default,
+      modelImg:require("./assets/images/m2.png").default,
       name: "Pink suit/dress",
       likeNumber: "1,305",
       feedbackNumber: "125",
@@ -18,7 +18,7 @@
     },
     {
       id: 3,
-      modelImg:require("./assets/images/3.png").default,
+      modelImg:require("./assets/images/m3.png").default,
       name: "Black suit/dress",
       likeNumber: "1,305",
       feedbackNumber: "125",
@@ -26,12 +26,11 @@
     },
     {
       id: 4,
-      modelImg:require("./assets/images/4.png").default,
+      modelImg:require("./assets/images/m4.png").default,
       name: "Black suit/dress",
       likeNumber: "1,305",
       feedbackNumber: "125",
       price: "120",
     },
   ];
-  export default women;
- 
+  export default men;

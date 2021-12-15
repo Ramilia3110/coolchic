@@ -18,15 +18,15 @@ const Prouct = (product, index) => {
              
                <ul>
                    <li>
-                       <img src={like}/>
+                       <img className='icon-categoty' src={like}/>
                        <p>{likeNumber}</p>
                    </li>
                    <li>
-                       <img src={comments}/>
+                       <img className='icon-categoty'  src={comments}/>
                        <p>{feedbackNumber}</p>
                    </li>
                    <li>
-                       <p>$</p>
+                       <p className='dollar'>$</p>
                        <p>{price}</p>
                    </li>
                </ul>

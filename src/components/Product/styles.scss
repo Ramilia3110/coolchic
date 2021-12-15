@@ -1,0 +1,21 @@
+.product{
+    width: 13rem;
+    padding: 1rem;
+}
+
+.product-img {
+    width: 13rem;
+  
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+.product-content {
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

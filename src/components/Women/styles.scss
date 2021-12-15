@@ -1,0 +1,10 @@
+.women {
+    min-height: 100vh;
+    background-image: var(--yellow-gradient);
+}
+.women-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}

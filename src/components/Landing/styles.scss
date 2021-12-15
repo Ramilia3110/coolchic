@@ -37,7 +37,7 @@
 }
 .landing-content {
     flex: 1;
-    min-width: 20rem;
+    min-width: 25rem;
     padding: 3rem;
     h1{
         font-weight: 600;
@@ -82,10 +82,16 @@
     }
 
 @media screen and (max-width:768px){
-    .landing-img_wrapper {
-        width: 60vw;
-      }
-  .landing-content .landing-btn {
+    .landing-img{
+        width: 70vw;
+        &_wrapper {
+            width: 60vw; 
+        
+
+
+        }
+    }
+    .landing-content .landing-btn {
       font-size: 1.2rem;
-  }
+    }
   }

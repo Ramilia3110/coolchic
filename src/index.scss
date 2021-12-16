@@ -4,7 +4,7 @@
 :root {
   --first-gradient:linear-gradient(226.97deg, rgba(141, 253, 211, 0.42) 18.98%, rgba(137, 156, 236, 0.6) 31.28%, rgba(107, 108, 230, 0.6) 39.34%, rgba(255, 251, 150, 0.6) 60.03%, rgba(1, 205, 254, 0.6) 73.01%, rgba(255, 113, 206, 0.6) 88.91%);
   --second-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(226.97deg, rgba(141, 253, 211, 0.63) 18.98%, rgba(137, 156, 236, 0.9) 31.28%, rgba(107, 108, 230, 0.9) 39.34%, rgba(255, 251, 150, 0.9) 60.03%, rgba(1, 205, 254, 0.9) 73.01%, rgba(255, 113, 206, 0.9) 88.91%);
-  --third-gradiet: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(226.97deg, rgba(141, 253, 211, 0.42) 18.98%, rgba(137, 156, 236, 0.6) 31.28%, rgba(107, 108, 230, 0.6) 39.34%, rgba(255, 251, 150, 0.6) 60.03%, rgba(1, 205, 254, 0.6) 73.01%, rgba(255, 113, 206, 0.6) 88.91%);
+  --third-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(226.97deg, rgba(141, 253, 211, 0.42) 18.98%, rgba(137, 156, 236, 0.6) 31.28%, rgba(107, 108, 230, 0.6) 39.34%, rgba(255, 251, 150, 0.6) 60.03%, rgba(1, 205, 254, 0.6) 73.01%, rgba(255, 113, 206, 0.6) 88.91%);
   --fourth-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(226.97deg, rgba(141, 253, 211, 0.6) 20.73%, rgba(107, 108, 230, 0.6) 41.91%, rgba(255, 251, 150, 0.6) 60.03%, rgba(1, 205, 254, 0.6) 79.44%, rgba(163, 221, 199, 0.6) 89.91%);
   --fifth-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(226.97deg, rgba(1, 205, 254, 0.6) 20.73%, rgba(107, 108, 230, 0.6) 41.91%, rgba(255, 251, 150, 0.6) 60.03%, rgba(107, 108, 230, 0.6) 79.44%, rgba(163, 221, 199, 0.6) 89.91%);
   --yellow-gradient: linear-gradient(0.05deg, rgba(255, 251, 150, 0.56) -0.87%, rgba(255, 251, 150, 0.4) 20.25%, rgba(255, 251, 150, 0.8) 38.4%, rgba(255, 251, 150, 0.4) 57.65%, rgba(255, 251, 150, 0.56) 80.54%, rgba(255, 251, 150, 0.56) 80.54%);
@@ -67,6 +67,9 @@ h4 {
   font-size: 1rem;
   font-weight: 500;
 }
+p{
+  font-size: .8rem;
+}
 button {
   border: none;
   outline: none;
@@ -76,11 +79,12 @@ button {
   h1{ font-size: 2.5rem;}
   h2{font-size: 2rem;}
   h3{font-size: 1.25rem;}
-  h4{font-size: .8rem; }
+  h4{font-size: .7rem; }
 
 
 }
 
 @media screen and (max-width:768px){
   h1{ font-size: 2.3rem;}
+  h2{font-size: 1.8rem;}
 }

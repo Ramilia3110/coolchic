@@ -1,12 +1,22 @@
 import Landing from "./components/Landing";
-import Women from "./components/Women";
+import Category from "./components/Category";
+import Offer from "./components/Offer";
+import Summer from "./components/Summer";
+import Newcollection from "./components/Newcollection";
+import women from "./data/data";
+import men from "./data/data2";
+
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
      <Landing/>
-     <Women/>
+     <Category category={women} title="women"/>
+     <Offer/>
+     <Summer/>
+     <Newcollection/>
+     <Category category={men} title="men"/>
     </div>
   );
 }

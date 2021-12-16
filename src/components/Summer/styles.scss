@@ -1,0 +1,107 @@
+.summer{
+    background-image: var(--yellow-gradient);
+    padding: 2rem;
+}
+.summer-set{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.summer-set1 {
+    width: 20rem; 
+    height: 45rem;
+    height: 100%;
+   
+    img{
+        border-radius: var(--radius);
+        object-fit: cover;
+        max-width: 100%;
+    }
+}
+.summer-set2{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+    &_img {
+        padding: .5rem;
+        display: flex;
+        gap: .8rem;
+        justify-content: space-between;
+
+    }
+    &_text{
+        padding-top: 4.5rem;
+        h2{
+            font-weight: 600;
+           
+        }
+        p{
+            font-size: 1.1rem;
+            padding-bottom: 2rem;
+        
+        }
+        button{
+            background-color: var(--pink);
+            padding: .65rem 5rem;
+            font-size: 1rem;
+            border-radius: var(--radius);
+            &:hover{
+                background-image: var(--second-gradient);
+                transition: var(--transition);
+            }
+        }
+        
+    }
+}
+.set2-img {
+    width: 9vw;
+    min-width: 5rem;
+    img{
+        width: 100%;
+        border-radius: var(--radius);
+    }
+  
+}
+.summer-container{
+    padding: 5rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trend-title{
+    padding-top: 12rem;
+    font-family: "Pacifico", sans-serif;
+    font-weight: 500;
+
+}
+
+
+@media screen and (max-width:768px){
+    .summer-set2{
+        height: fit-content;
+        padding-bottom: 5rem;
+        &_text{
+            padding-bottom: 3.5rem;
+            
+            p{
+                font-size: .85rem;
+                padding-bottom: 3rem;
+            
+            }
+            
+        }
+
+    }
+    .trend-title{
+        padding-top: 5rem;
+    }
+}

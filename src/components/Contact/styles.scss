@@ -1,0 +1,138 @@
+.contact {
+    overflow: hidden;
+    margin-top: 5rem;
+    min-height: 150vh;
+    background: #fff;
+  }
+  .partners {
+    margin-top: 5rem;
+    width: 70%;
+    display: flex;
+    gap:1rem ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .p{
+      width: 7vw;
+      min-width: 3rem;
+      img{
+          width: 100%;
+          object-fit: cover;
+      }
+    }
+   
+  }
+  .contact-form {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+    .contact-img {
+        width: 28.5vw;
+        min-width: 20rem;
+      
+      img {
+          border-radius: var(--radius);
+          width: 100%;
+          
+      }
+    }
+    .form {
+      text-align: center;
+      max-width: 35rem;
+      padding: 2rem;
+      h2{
+          font-weight: 500;
+          font-family: "Pacifico", sans-serif;
+          padding-bottom: 1rem;
+      }
+     
+    }
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th {
+    border: 2px solid #312d2d;
+    margin: 0;
+    &:hover {
+      border-color: var(--blue);
+    }
+    input {
+      height: 5vh;
+    }
+    textarea {
+      height: 19vh;
+    }
+    input,
+    textarea {
+      padding: 1.3rem;
+      font-size: var(--normal-font-size);
+      font-family: "Pacifico", sans-serif;
+      border: none;
+      width: 100%;
+      &:focus {
+        outline-color: var(--blue);
+      }
+    }
+  }
+
+ 
+  .btn {
+    border: none;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+    margin: 3rem 0 1.5rem 0;
+    background-image: var(--yellow-gradient);
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    cursor: pointer;
+    &:hover {
+      background-image: var(--second-gradient);
+    }
+  }
+  .fname::-webkit-input-placeholder,
+  .lname::-webkit-input-placeholder,
+  .phone::-webkit-input-placeholder,
+  .email::-webkit-input-placeholder,
+  .message::-webkit-input-placeholder {
+    color: #312d2d;
+  }
+  .message::-webkit-input-placeholder {
+    font-size: 1.8rem;
+  }
+  .message {
+    resize: none;
+  }
+  @media only screen and (max-width: 992px) {
+    .contact {
+      height: auto;
+      overflow: auto;
+      margin-top: 5rem;
+    }
+    
+    .contact-form {
+      flex-direction: column;
+      align-items: center;
+      margin: 9rem 0;
+    
+      .form {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+   
+      }
+    }
+  
+  }
+  @media only screen and (max-width: 768px) {
+    .contact {
+        margin-top: 1rem;
+    }
+    .partners {
+        justify-content: center;
+        width: 80%;
+      }
+  }

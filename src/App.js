@@ -3,7 +3,8 @@ import Category from "./components/Category";
 import Offer from "./components/Offer";
 import Summer from "./components/Summer";
 import Newcollection from "./components/Newcollection";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
+import Footer from "./components/Footer"
 import women from "./data/data";
 import men from "./data/data2";
 
@@ -19,6 +20,7 @@ function App() {
      <Newcollection/>
      <Category category={men} title="men"/>
      <Contact/>
+     <Footer/>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import "./styles.scss";
 
 const Offer = () => {
 return (
-<div class="offer">
+<div class="offer" id="offers">
 
     <div class="offer-container">
        <div class="inner-container">

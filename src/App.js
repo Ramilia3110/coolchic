@@ -1,3 +1,4 @@
+import Header from "./components/Header";
 import Landing from "./components/Landing";
 import Category from "./components/Category";
 import Offer from "./components/Offer";
@@ -12,13 +13,14 @@ import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-     <Landing/>
-     <Category category={women} title="women"/>
+    <div className="App" id="home">
+      <Header/>
+     <Landing />
+     <div id ='women'>  <Category category={women} title="women" /></div>
      <Offer/>
      <Summer/>
      <Newcollection/>
-     <Category category={men} title="men"/>
+     <div id="men">  <Category category={men} title="men"/></div>
      <Contact/>
      <Footer/>
     </div>

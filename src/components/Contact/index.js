@@ -9,7 +9,7 @@ import './styles.scss';
 
 const Contact = () => {
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
              <div class="container">
                <div class="inner-container">
                 <div class="partners">
